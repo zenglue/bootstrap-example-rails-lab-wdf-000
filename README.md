@@ -6,13 +6,19 @@
 
 
 ## Outline
+For this lab we will be integrating Twitter Bootstrap into our application. There is a Rails application located in the `rails_app` folder you will be working with. Once you are complete make sure to run the tests to validate your work.
 
-Make sure they include the gem.
-
-Make sure the manifests require bootstrap correctly.
-
-Make sure the layout uses bootstrap.
-
-Expect certain common bootstrap dom like a 3x3 grid or columns or a static header, I'd suggest basically having them build 1 or 2 of the bootstrap examples in static views like http://getbootstrap.com/examples/jumbotron/ or http://getbootstrap.com/examples/navbar-fixed-top/ or anything on http://getbootstrap.com/getting-started/#examples
+- Add the [Bootstrap SASS Gem](https://github.com/twbs/bootstrap-sass) to the Gemfile.
+- Add the correct statements to the CSS manifest
+- Create a basic grid layout
+  - Inside the `<body>` tag create a `<div>` tag with the CSS class
+    `container`.
+  - Inside of `container` element, create 3 `<div>` tags with the CSS class
+    `row`.
+  - Inside each of the `row` elements, create 3 evenly size columns.
+    - In each column add a `<p>` tag with some text and a Bootstrap button.
+- Inside of the `container` element, create a navigation bar with 3
+  links, **Home**, **About**, **Contact**. Set the `href` attribute to
+`#`.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/bootstrap-example-rails-lab' title='Bootstrap Example Rails Lab'>Bootstrap Example Rails Lab</a> on Learn.co and start learning to code for free.</p>
